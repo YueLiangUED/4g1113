@@ -6,6 +6,9 @@ img {
     display: block;
     width: 100%;
 }
+.view-rapper {
+    padding-bottom: 0.4rem;
+}
 .banner {
     width: 100%;
     height: 4.86rem;
