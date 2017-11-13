@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset-app.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>4G包年卡-中国移动</title>
+    <script>
+        (function (global) {
+            function remChange() {
+                document.documentElement.style.fontSize = 100 * document.documentElement.clientWidth / 750 + 'px';
+            }
+            remChange();
+            global.addEventListener('resize', remChange, false);
+        })(window);
+    </script>
+</head>
+
+<body style="visibility:hidden;">
+    <!-- 页面html代码开始 -->
+    <div class="view-rapper">
+        <div class="banner"></div>
+        <div class="handle-panel">
+            <img class="handle-img" src="images/pic_02.png" alt="4G包年卡" />
+            <div class="clearfix">
+                <a class="expenses-btn" href="#expenses"><span>资费介绍</span><i></i></a>
+            </div>
+            <a class="handle-btn" href=""></a>
+        </div>
+        <div class="content-panel">
+            <div class="content-title">
+                产品介绍
+            </div>
+            <div class="content-body overview">
+                <img src="images/pic_03.png" alt="包年特惠" />
+                <img src="images/pic_04.png" alt="G致升级" />
+                <img src="images/pic_05.png" alt="放肆看" />
+                <img src="images/pic_06.png" alt="188靓号" />
+            </div>
+        </div>
+        <div id="expenses" class="content-panel">
+            <div class="content-title">
+                资费详情
+            </div>
+            <div class="content-body">
+                <img class="expenses-img" src="images/table_01.png" alt="资费表" />
+            </div>
+        </div>
+        <div class="content-panel">
+            <div class="content-title">
+                温馨提示
+            </div>
+            <div class="content-body">
+                <img class="tip-img" src="images/pic_07.png" alt="温馨提示" />
+            </div>
+        </div>
+    </div>
+    <!-- 页面html代码结束 -->
+    <script type="text/javascript">
+        setTimeout(function () {
+            document.getElementsByTagName('body')[0].style.visibility = 'visible';
+        }, 100)
+    </script>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
