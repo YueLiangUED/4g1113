@@ -80,6 +80,15 @@ img {
     border-radius: 8px;
     box-shadow: 6px 6px #93bbe4;
 }
-.tip-img {
+.tip-content {
     width: 7rem;
+    height: 23.37rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.3rem;
+    background: url("../images/pic_07.png") no-repeat left top;
+    background-size: auto 100%;
+    font-size: 0.2rem;
+    color: #666666;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    line-height: 1.4em;
 }
